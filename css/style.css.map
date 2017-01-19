@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/main.scss",
+		"../sass/layout/_grid.scss",
+		"../sass/helpers/_variables.scss",
+		"../sass/components/_navigation.scss",
+		"../sass/layout/_footer.scss",
+		"../sass/layout/_header.scss"
+	],
+	"names": [],
+	"mappings": "AGAA,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CAKd;;AAND,AAGI,GAHD,CAGC,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CACnB;;ACLL,AAAA,MAAM,CAAA;EACF,gBAAgB,EFAE,OAAO;CEC5B;;ACFD,AAAA,MAAM,CAAC;EACH,gBAAgB,EHAE,OAAO;EGCzB,KAAK,EAAE,IAAI;CAKd;;AAPD,AAGI,MAHE,CAGF,EAAE,CAAC;EACC,OAAO,EAAE,IAAI;EACb,KAAK,EHHc,OAAO;CGI7B"
+}
