@@ -5,4 +5,14 @@ $reg-text-color: #000;
 $button-color: #db2b39;
 $background-color: #a5a2a2;
 
-//fonts
+// fonts
+$header-font-h1: "Roboto", sans-serif;
+$font-reg: "Roboto Condensed", sans-serif;
+$font-nav: "Roboto", sans-serif;
+
+$thin: 100;
+
+// break points
+$break-small  : 320px;
+$break-tablet : 840px;
+$break-desktop: 1024px;
