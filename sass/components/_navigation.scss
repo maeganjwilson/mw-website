@@ -1,7 +1,21 @@
 nav {
-    width: 100%;
-
     ul {
         list-style: none;
+        color: $header-footer-text-color;
+    }
+
+    li{
+        font: $font-nav;
+        font-weight: $thin;
+        a{
+            :active{
+                font-variant: small-caps;
+                color: $header-footer-text-color;
+            }
+
+            :link{
+                color: $header-footer-text-color;
+            }
+        }
     }
 }
