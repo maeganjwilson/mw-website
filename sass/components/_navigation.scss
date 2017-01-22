@@ -1,21 +1,23 @@
 nav {
-    ul {
-        list-style: none;
-        color: $header-footer-text-color;
+  width: 100%;
+  text-align: right;
+  ul {
+    list-style: none;
+    color: $header-footer-text-color;
+    margin: 0px 20px 0px 0px;
+    padding: 10px;
+  }
+  li {
+    display: inline;
+    font-family: $font-nav;
+    font-weight: $thin;
+    padding: 5px;
+    a {
+      text-decoration: none;
+      color: $header-footer-text-color;
+      .active {
+        font-variant: small-caps;
+      }
     }
-
-    li{
-        font: $font-nav;
-        font-weight: $thin;
-        a{
-            :active{
-                font-variant: small-caps;
-                color: $header-footer-text-color;
-            }
-
-            :link{
-                color: $header-footer-text-color;
-            }
-        }
-    }
+  }
 }

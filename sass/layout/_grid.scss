@@ -1,6 +1,6 @@
-@charset "UTF-8";
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .container {
   position: relative;
   width: 100%;
@@ -17,7 +17,9 @@
   box-sizing: border-box;
 }
 
+
 /* For devices larger than 400px */
+
 @media (min-width: 400px) {
   .container {
     width: 85%;
@@ -25,7 +27,9 @@
   }
 }
 
+
 /* For devices larger than 550px */
+
 @media (min-width: 550px) {
   .container {
     width: 80%;
@@ -143,40 +147,3 @@
     margin-left: 52%;
   }
 }
-
-nav ul {
-  list-style: none;
-  color: #f6f4f3;
-}
-
-nav li {
-  font: "Roboto", sans-serif;
-  font-weight: 100;
-}
-
-nav li a :active {
-  font-variant: small-caps;
-  color: #f6f4f3;
-}
-
-nav li a :link {
-  color: #f6f4f3;
-}
-
-footer {
-  background-color: #0e0975;
-}
-
-header {
-  background-color: #0e0975;
-  width: 100%;
-}
-
-header h1 {
-  padding: 20px;
-  color: #f6f4f3;
-  font-size: 80px;
-  font-family: "Roboto", sans-serif;
-}
-
-/*# sourceMappingURL=style.css.map */

@@ -1,10 +1,11 @@
 header {
-    background-color: $header-footer-color;
-    width: 100%;
-    h1 {
-        padding: 20px;
-        color: $header-footer-text-color;
-        font-size: 80px;
-        font-family: $header-font-h1;
-    }
+  background-color: $header-footer-color;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  width: 100%;
+  h1 {
+    padding: 20px;
+    color: $header-footer-text-color;
+    font-size: 80px;
+    font-family: $header-font-h1;
+  }
 }
