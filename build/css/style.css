@@ -151,10 +151,10 @@ header {
 }
 
 header h1 {
-  padding: 20px;
   color: #f6f4f3;
-  font-size: 80px;
   font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  padding: 20px;
 }
 
 nav {
@@ -205,7 +205,20 @@ nav li a .active {
 
 footer {
   background-color: #0e0975;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 r rgba(0, 0, 0, 0.4);
+  font-family: "Roboto", sans-serif;
+}
+
+footer li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  padding: 5px;
+}
+
+footer li a {
+  color: #f6f4f3;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
