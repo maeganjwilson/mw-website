@@ -1,0 +1,17 @@
+.card {
+  background-color: $card-color;
+  box-shadow: 0 4px 8px 0 $card-shadow-nohover;
+  display: inline-block;
+  font-family: $font-reg;
+  margin: 20px;
+  transition: .3s;
+  width: 40%;
+
+  :hover {
+    box-shadow: 0 8px 16px 0 $card-shadow-hover;
+  }
+}
+
+.card-container {
+  padding: 20px;
+}
