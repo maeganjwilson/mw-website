@@ -4,29 +4,51 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-<<<<<<< HEAD
-		"uuidString": "49062ED2-1AE2-4D3E-A1D3-CAF6F0EA6F39"
-		}
-	],
-"creatorBuild": "25479",
-"files": {
-	"\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/style-min.css",
-=======
-		"uuidString": "4555F0F9-0330-405A-BA12-B0CB6D7F369F"
+		"uuidString": "DA60EEBE-4CF5-4140-BF73-E95FEAF12169"
 		}
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/build": {
-		"ft": 65536,
+	"\/build\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
+	"\/build\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "\/build\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/build\/css\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/css\/style.css.map",
+		"oF": 0
+		},
+	"\/build\/images\/code.png": {
+		"ft": 32768,
+		"iS": 60093,
+		"oA": 0,
+		"oAP": "\/build\/images\/code.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/build\/projects.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/projects.html",
+		"oF": 0
+		},
+	"\/build\/site map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/site map.html",
 		"oF": 0
 		},
 	"\/css\/style.css": {
@@ -35,17 +57,23 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/css\/style-min.css",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
+		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
 	"\/css\/style.css.map": {
 		"ft": 8192,
-<<<<<<< HEAD
 		"oA": 2,
 		"oAP": "\/css\/style.css.map",
 		"oF": 0
+		},
+	"\/images\/code.png": {
+		"ft": 32768,
+		"iS": 106952,
+		"oA": 0,
+		"oAP": "\/images\/code.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/projects.html": {
 		"ft": 8192,
@@ -53,51 +81,24 @@
 		"oAP": "\/projects.html",
 		"oF": 0
 		},
-	"\/README.md": {
-=======
-		"oA": 1,
-		"oAP": "\/build\/css\/style.css.map",
-		"oF": 0
-		},
-	"\/images\/code.png": {
-		"ft": 32768,
-		"iS": 106952,
-		"oA": 0,
-		"oAP": "\/build\/images\/code.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/projects.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/projects.html",
-		"oF": 1
-		},
 	"\/readme.md": {
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"cS": 0,
-		"eF": 1,
-		"eL": 1,
+		"eF": 0,
+		"eL": 0,
 		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
+		"ema": 0,
+		"eSQ": 0,
 		"ft": 4096,
 		"oA": 0,
-<<<<<<< HEAD
-		"oAP": "\/README.html",
-=======
-		"oAP": "\/build\/readme.html",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
+		"oAP": "\/readme.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
-		"pME": 1,
+		"pME": 0,
 		"rFN": 0,
 		"uCM": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/sass\/components\/_cards.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -106,12 +107,11 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/sass\/components\/_cards.css",
+		"oAP": "\/sass\/components\/_cards.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 	"\/sass\/components\/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -120,10 +120,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-<<<<<<< HEAD
 		"oAP": "\/sass\/components\/_navigation.css",
-=======
-		"oAP": "\/build\/sass\/components\/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -136,8 +133,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/sass\/helpers\/_mixin.css",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
+		"oAP": "\/sass\/helpers\/_mixin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -150,11 +146,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-<<<<<<< HEAD
 		"oAP": "\/sass\/helpers\/_variables.css",
-=======
-		"oAP": "\/build\/sass\/helpers\/_variables.css",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -167,20 +159,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-<<<<<<< HEAD
 		"oAP": "\/sass\/layout\/_footer.css",
-=======
-		"oAP": "\/build\/sass\/layout\/_footer.css",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-<<<<<<< HEAD
-	"\/sass\/layout\/_header.scss": {
-=======
 	"\/sass\/layout\/_grid.scss": {
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -188,81 +172,36 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-<<<<<<< HEAD
-		"oAP": "\/sass\/layout\/_header.css",
-=======
-		"oAP": "\/build\/sass\/layout\/_grid.css",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
+		"oAP": "\/sass\/layout\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-<<<<<<< HEAD
-	"\/sass\/main.scss": {
-=======
 	"\/sass\/layout\/_header.scss": {
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-<<<<<<< HEAD
-		"oA": 0,
-		"oAP": "\/sass\/main.css",
-=======
 		"oA": 1,
-		"oAP": "\/build\/sass\/layout\/_header.css",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
+		"oAP": "\/sass\/layout\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-<<<<<<< HEAD
-	"\/site-map.md": {
-=======
 	"\/sass\/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/build\/css\/style.css",
-		"oF": 2,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/site map.html": {
-		"ft": 8192,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/site map.html",
-		"oF": 0
-		},
-	"\/site map.md": {
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-<<<<<<< HEAD
-		"oAP": "\/site-map.html",
-=======
-		"oAP": "\/build\/site map.html",
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
+		"oAP": "\/sass\/main.css",
 		"oF": 0,
-		"oFM": 0,
 		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -270,18 +209,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-<<<<<<< HEAD
-	"creationDate": 506573018,
+	"creationDate": 507426863,
 	"displayValue": "mw-website",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron"
-=======
-	"creationDate": 506551218,
-	"displayValue": "mw-website",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray",
-	"lastBuiltDate": 506630968
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "defaultFrameworkIcon"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -536,11 +467,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-<<<<<<< HEAD
 	"buildFolderActive": 0,
-=======
-	"buildFolderActive": 1,
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -933,13 +860,10 @@
 			"active": 0,
 			"optionString": ""
 			},
-<<<<<<< HEAD
-=======
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
 			},
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1480,13 +1404,10 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
-<<<<<<< HEAD
-=======
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -1990,11 +1911,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
-<<<<<<< HEAD
-		"autoOutputAction": 2,
-=======
 		"autoOutputAction": 0,
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2002,11 +1919,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-<<<<<<< HEAD
-		"shouldRunAutoprefixer": 0,
-=======
 		"shouldRunAutoprefixer": 1,
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -2387,11 +2300,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-<<<<<<< HEAD
 	"websiteRelativeRoot": ""
-=======
-	"websiteRelativeRoot": "\/build"
->>>>>>> a9920c4651788b2a65266a458f2e5074df8afa5e
 	},
 "settingsFileVersion": "3"
 }
