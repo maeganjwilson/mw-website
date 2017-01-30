@@ -9,13 +9,13 @@
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/build\/.gitignore": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/.gitignore",
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
 		"oF": 0
 		},
-	"\/build\/css\/style.css": {
+	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
@@ -25,60 +25,24 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/build\/css\/style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/css\/style.css.map",
-		"oF": 0
-		},
-	"\/build\/images\/code.png": {
-		"ft": 32768,
-		"iS": 60093,
-		"oA": 0,
-		"oAP": "\/build\/images\/code.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/projects.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/projects.html",
-		"oF": 0
-		},
-	"\/build\/site map.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/site map.html",
-		"oF": 0
-		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/style.css.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/style.css.map",
+		"oAP": "\/build\/css\/style.css.map",
 		"oF": 0
 		},
 	"\/images\/code.png": {
 		"ft": 32768,
 		"iS": 106952,
 		"oA": 0,
-		"oAP": "\/images\/code.png",
+		"oAP": "\/build\/images\/code.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/projects.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/projects.html",
+		"oAP": "\/build\/projects.html",
 		"oF": 0
 		},
 	"\/readme.md": {
@@ -90,7 +54,7 @@
 		"eSQ": 0,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/readme.html",
+		"oAP": "\/build\/readme.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -107,7 +71,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_cards.css",
+		"oAP": "\/build\/sass\/components\/_cards.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -120,7 +84,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_navigation.css",
+		"oAP": "\/build\/sass\/components\/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -133,7 +97,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/helpers\/_mixin.css",
+		"oAP": "\/build\/sass\/helpers\/_mixin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -146,7 +110,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/helpers\/_variables.css",
+		"oAP": "\/build\/sass\/helpers\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -159,7 +123,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_footer.css",
+		"oAP": "\/build\/sass\/layout\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -172,7 +136,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_grid.css",
+		"oAP": "\/build\/sass\/layout\/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -185,7 +149,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/_header.css",
+		"oAP": "\/build\/sass\/layout\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -198,7 +162,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/main.css",
+		"oAP": "\/build\/sass\/main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -212,7 +176,8 @@
 	"creationDate": 507426863,
 	"displayValue": "mw-website",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "defaultFrameworkIcon"
+	"iconImageName": "defaultFrameworkIcon",
+	"lastBuiltDate": 507428493
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -467,7 +432,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -2300,7 +2265,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }
