@@ -168,8 +168,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/sass\/main.css",
-		"oF": 1,
+		"oAP": "\/build\/css\/style.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		}
@@ -183,7 +183,7 @@
 	"displayValue": "mw-website",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "defaultFrameworkIcon",
-	"lastBuiltDate": 507428493
+	"lastBuiltDate": 507500948
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
