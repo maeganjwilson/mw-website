@@ -4,6 +4,7 @@ nav ul {
 }
 
 nav li {
+  display: inline;
   font: "Roboto", sans-serif;
   font-weight: 100;
 }
