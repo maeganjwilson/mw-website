@@ -52,7 +52,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/style.css",
+		"oAP": "\/build\/css\/style.css",
 		"oF": 3,
 		"oS": 0,
 		"uL": 1
@@ -66,6 +66,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/build\/SASS\/parts\/_body.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/SASS\/parts\/_expedu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/SASS\/parts\/_expedu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -95,6 +108,19 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/SASS\/parts\/_skills.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/SASS\/parts\/_skills.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -106,7 +132,7 @@
 	"displayValue": "mw-website",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "defaultFrameworkIcon",
-	"lastBuiltDate": 507871479
+	"lastBuiltDate": 507917431
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
