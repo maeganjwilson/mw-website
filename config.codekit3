@@ -9,10 +9,10 @@
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
+	"\/.firebaserc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.firebaserc",
 		"oF": 0
 		},
 	"\/css\/style.css": {
@@ -20,40 +20,72 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/css\/style-min.css",
+		"oA": 1,
+		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/database.rules.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/database.rules-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/firebase.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/firebase-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/index.html",
+		"oAP": "\/public\/index.html",
 		"oF": 3
 		},
-	"\/sass\/helpers\/_variables.scss": {
+	"\/public\/css\/style.css": {
 		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/public\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/index.html",
+		"oF": 0
+		},
+	"\/SASS\/helpers\/_variables.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/SASS\/helpers\/_variables.css",
-		"oF": 1,
+		"oAP": "\/SASS\/helpers\/_variables.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/main.scss": {
-		"aP": 1,
+	"\/SASS\/main.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/css\/style.css",
-		"oF": 3,
+		"oAP": "\/public\/css\/style.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -65,7 +97,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/SASS\/parts\/_body.css",
+		"oAP": "\/SASS\/parts\/_body.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -78,7 +110,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/SASS\/parts\/_expedu.css",
+		"oAP": "\/SASS\/parts\/_expedu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -91,7 +123,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/SASS\/parts\/_footer.css",
+		"oAP": "\/SASS\/parts\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -104,7 +136,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/SASS\/parts\/_header.css",
+		"oAP": "\/SASS\/parts\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -117,7 +149,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/SASS\/parts\/_information.css",
+		"oAP": "\/SASS\/parts\/_information.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -130,7 +162,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/SASS\/parts\/_skills.css",
+		"oAP": "\/SASS\/parts\/_skills.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -145,7 +177,7 @@
 	"displayValue": "mw-website",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "defaultFrameworkIcon",
-	"lastBuiltDate": 507917431
+	"lastBuiltDate": 507927224
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -400,7 +432,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 1,
+	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -2233,7 +2265,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
 }
