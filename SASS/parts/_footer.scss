@@ -1,0 +1,13 @@
+footer {
+    color: $hf-fontcolor;
+    background-color: $hf-background;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    
+    ul {
+        list-style: none;
+        display: inline;
+    }
+}
