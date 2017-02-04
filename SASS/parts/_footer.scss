@@ -1,13 +1,16 @@
 footer {
     color: $hf-fontcolor;
     background-color: $hf-background;
-    width: auto;
+    width: 800px;
+    height: 80px;
     position: fixed;
     bottom: 0px;
-    height: 80px;
-    
+    flex-grow: 1;
+    display: flex;
     ul {
         list-style: none;
+        
+        justify-content: space-between;
         li {
             display: inline;
             a {

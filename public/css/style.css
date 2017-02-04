@@ -4,18 +4,21 @@
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-flow: row wrap;
-  width: 800px; }
+  width: 800px;
+  justify-content: center; }
 
 .header {
   color: #ffffff;
   background-color: #01172F;
-  width: auto;
-  height: 80px;
+  width: 800px;
+  height: 112px;
   position: fixed;
   top: 0px;
-  padding: 2%; }
+  flex-grow: 1;
+  text-align: center; }
   .header h1 {
-    margin: 1% 0%; }
+    margin-top: 2%;
+    margin-bottom: 2%; }
 
 .information h4 {
   color: #00487C; }
@@ -29,19 +32,23 @@
 .skills {
   width: auto;
   padding: 2%;
-  margin-top: 96px; }
+  margin-top: 96px;
+  justify-content: center; }
   .skills ul {
     list-style: none; }
 
 footer {
   color: #ffffff;
   background-color: #01172F;
-  width: auto;
+  width: 800px;
+  height: 80px;
   position: fixed;
   bottom: 0px;
-  height: 80px; }
+  flex-grow: 1;
+  display: flex; }
   footer ul {
-    list-style: none; }
+    list-style: none;
+    justify-content: space-between; }
     footer ul li {
       display: inline; }
       footer ul li a {
