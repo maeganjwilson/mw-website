@@ -1,0 +1,19 @@
+footer {
+    color: $hf-fontcolor;
+    background-color: $hf-background;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    
+    ul {
+        list-style: none;
+        li {
+            display: inline;
+            a {
+                text-decoration: none;
+                color: $f-linkcolor;
+            }
+        }
+    }
+}
