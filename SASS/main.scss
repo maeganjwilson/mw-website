@@ -1,1 +1,4 @@
-@import '/variables';
+@import "helpers/variables";
+@import "parts/body";
+@import "parts/header";
+@import "parts/information";
