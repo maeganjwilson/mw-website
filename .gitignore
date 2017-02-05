@@ -1,5 +1,5 @@
 *.rules.json
 *.firebaserc
-firebase.json
-*.DS_Store
+/firebase.json
+.DS_Store
 config.codekit3
