@@ -25,22 +25,22 @@
 .information h4 {
   color: #00487C; }
 
-.expedu h4 {
-  margin-bottom: 2%; }
+.expedu {
+  padding-left: 1%; }
+  .expedu h4 {
+    margin-bottom: 2%; }
+  .expedu p {
+    margin: 1%; }
+  .expedu ul {
+    margin-top: 1%;
+    margin: 2px; }
 
-.expedu p {
-  margin: 1%; }
-
-.expedu ul {
-  margin-top: 1%;
-  margin: 2px; }
-
-.skills h4 {
-  margin-bottom: 1%; }
-
-.skills ul {
-  margin-top: 1%;
-  list-style: none; }
+.skills {
+  padding-left: 1% h4;
+    padding-left-margin-bottom: 1%; }
+  .skills ul {
+    margin-top: 1%;
+    list-style: none; }
 
 footer {
   color: #efefef;
