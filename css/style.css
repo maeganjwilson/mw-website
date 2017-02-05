@@ -3,18 +3,18 @@
 .body {
   background-color: #efefef;
   font-family: "Roboto", sans-serif;
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center; }
+  justify-content: space-around;
+  align-items: stretch; }
 
 .header {
   color: #efefef;
   background-color: #01172F;
   width: 100%;
   height: 112px;
-  position: fixed;
   top: 0px;
   flex-grow: 1;
   text-align: center; }
@@ -25,42 +25,34 @@
 .information h4 {
   color: #00487C; }
 
-.expedu {
-  width: 50%;
-  padding: 2%;
-  margin-top: 96px;
-  padding-bottom: 10%; }
-  .expedu h4 {
-    margin-bottom: 2%; }
-  .expedu p {
-    margin: 1%; }
-  .expedu ul {
-    margin-top: 1%;
-    margin: 2px; }
+.expedu h4 {
+  margin-bottom: 2%; }
 
-.skills {
-  width: auto;
-  padding: 2%;
-  margin-top: 96px;
-  justify-content: center; }
-  .skills h4 {
-    margin-bottom: 1%; }
-  .skills ul {
-    margin-top: 1%;
-    list-style: none; }
+.expedu p {
+  margin: 1%; }
+
+.expedu ul {
+  margin-top: 1%;
+  margin: 2px; }
+
+.skills h4 {
+  margin-bottom: 1%; }
+
+.skills ul {
+  margin-top: 1%;
+  list-style: none; }
 
 footer {
   color: #efefef;
   background-color: #01172F;
   width: 100%;
   height: 80px;
-  position: fixed;
-  bottom: 0px;
+  margin-top: 20px;
   flex-grow: 1;
-  display: flex; }
+  text-align: center; }
   footer ul {
     list-style: none;
-    justify-content: space-between; }
+    padding: 1%; }
     footer ul li {
       display: inline; }
       footer ul li a {
