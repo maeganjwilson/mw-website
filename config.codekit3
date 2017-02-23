@@ -69,6 +69,12 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/npm-debug.log": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/npm-debug.log",
+		"oF": 0
+		},
 	"\/public\/css\/challenge.css": {
 		"aP": 1,
 		"bl": 0,
