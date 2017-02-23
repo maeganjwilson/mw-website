@@ -1,0 +1,26 @@
+.navcontainer {
+    background-color: $nav-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+    color: $hftext-color;
+    font-size: 1.5em;
+    /*Nav bar info*/
+    .nav {
+        //text-align: left;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            li {
+                margin: 5px;
+                padding-right: 20px;
+                a {
+                    text-decoration: none;
+                    font-variant: small-caps;
+                    color: $hftext-color;
+                }
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@
 		"uuidString": "DA60EEBE-4CF5-4140-BF73-E95FEAF12169"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.firebaserc": {
 		"ft": 8192,
@@ -21,6 +21,16 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/css\/challenge.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/challenge-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -30,6 +40,12 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/csschallenge.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/csschallenge.html",
+		"oF": 0
 		},
 	"\/database.rules.json": {
 		"ft": 524288,
@@ -50,8 +66,34 @@
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/public\/index.html",
-		"oF": 3
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/public\/css\/challenge.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/css\/challenge-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/public\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/public\/csschallenge.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/csschallenge.html",
+		"oF": 0
 		},
 	"\/public\/index.html": {
 		"ft": 8192,
@@ -77,20 +119,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/SASS\/helpers\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/SASS\/helpers\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/SASS\/main.scss": {
+	"\/sass\/challenge.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -98,25 +127,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
-		"oF": 3,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/SASS\/parts\/_body.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/SASS\/parts\/_body.css",
+		"oAP": "\/sass\/challenge.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/SASS\/parts\/_expedu.scss": {
+	"\/sass\/components\/_body.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -124,12 +140,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/SASS\/parts\/_expedu.css",
+		"oAP": "\/sass\/components\/_body.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/SASS\/parts\/_footer.scss": {
+	"\/sass\/components\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -137,12 +153,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/SASS\/parts\/_footer.css",
+		"oAP": "\/sass\/components\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/SASS\/parts\/_header.scss": {
+	"\/sass\/components\/_navcontact.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -150,12 +166,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/SASS\/parts\/_header.css",
+		"oAP": "\/sass\/components\/_navcontact.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/SASS\/parts\/_information.scss": {
+	"\/sass\/helpers\/variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -163,12 +179,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/SASS\/parts\/_information.css",
+		"oAP": "\/sass\/helpers\/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/SASS\/parts\/_skills.scss": {
+	"\/sass\/layout\/grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -176,7 +192,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/SASS\/parts\/_skills.css",
+		"oAP": "\/sass\/layout\/grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1063,6 +1092,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1391,6 +1424,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -1484,6 +1521,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
