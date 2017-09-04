@@ -1,6 +1,8 @@
 *.rules.json
 *.firebaserc
 /firebase.json
+npm-debug.log
+
 # General CodeKit files to ignore
 config.codekit3
 /min
