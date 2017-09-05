@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="./style-min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="grid-container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <a class="navbar-brand" href="#">Maegan Wilson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -19,15 +19,15 @@
                 </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                            <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                        </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
                 </li>
-                <li class="nav-item active">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
@@ -35,39 +35,75 @@
         </div>
     </nav>
     <div class="container">
-        <div class="jumbotron">
-            <h1>Maegan J Wilson</h1>
-            <p>Front-End Web Developer based in Austin, Tx</p>
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1>Maegan J Wilson</h1>
+                    <p>Front-End Web Developer based in Austin, Tx</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h2>About</h1>
+            </div>
+            <div class="col">
+                <h2>Skills</h1>
+                    <ul class="nav nav-tabs id=" myTab " role="tablist "">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="prog-tab" data-toggle="tab" href="#prog" role="tab" aria-controls="prog" aria-expanded="true">Programming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design">Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="office-tab" data-toggle="tab" href="#office" role="tab" aria-controls="office">Office</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="prog" role="tabpanel" aria-labelledby="prog-tab">
+                            <ul class="list-group">
+                                <li class="list-group-item">HTML5</li>
+                                <li class="list-group-item">CSS3
+                                    <ul>
+                                        <li>Bootstrap v3 and v4</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item">JavaScript</li>
+                                <li class="list-group-item">Python</li>
+                                <li class="list-group-item">Java</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">...</div>
+                        <div class="tab-pane fade" id="office" role="tabpanel" aria-labelledby="office-tab">...</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-expand-lg fixed-bottom bg-dark text-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:maegan@maeganwilson.com">Email</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://github.com/maeganjwilson">GitHub</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://codepen.io/maeganwilson_/">Codepen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/maeganwilson_/">Twitter</a>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="flex-container">
-        <div class="col-8">
-            <header class="header">
-                <section class="name">
-                    <h1>Maegan J Wilson</h1>
-                    <p>Front End Developer based in Austin, Tx</p>
-                </section>
-            </header>
-            <div class="navcontainer">
-                <!-- Navigation -->
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#exp">Experience</a></li>
-                        <li><a href="#proj">Projects</a></li>
-                        <li><a href="#edu">Education</a></li>
-                    </ul>
-                </nav>
-                <!-- Contact Information -->
-                <section class="nav">
-                    <ul>
-                        <li><a href="mailto:maegan@maeganwilson.com">Email</a></li>
-                        <li><a href="http://github.com/maeganjwilson">GitHub</a></li>
-                        <li><a href="http://codepen.io/maeganwilson_/">Codepen</a></li>
-                        <li><a href="https://twitter.com/maeganwilson_">Twitter</a></li>
-                    </ul>
-                </section>
-            </div>
-        </div>
         <!--Experience-->
         <section class="body">
             <h2 class="exphead"><a id="exp"></a>Experience</h2>
