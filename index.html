@@ -11,100 +11,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-        <a class="navbar-brand" href="#">Maegan Wilson</a>
+    <div class="navbar navbar-expand-lg fixed-top bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
             aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="jumbotron">
-                    <h1>Maegan J Wilson</h1>
-                    <p>Front-End Web Developer based in Austin, Tx</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <h2>About</h1>
-            </div>
-            <div class="col">
-                <h2>Skills</h1>
-                    <ul class="nav nav-tabs id=" myTab " role="tablist "">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="prog-tab" data-toggle="tab" href="#prog" role="tab" aria-controls="prog" aria-expanded="true">Programming</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design">Design</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="utilities-tab" data-toggle="tab" href="#utilities" role="tab" aria-controls="utilities">Utilities</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="prog" role="tabpanel" aria-labelledby="prog-tab">
-                            <ul class="list-group w-75 mx-auto mt-2">
-                                <li class="list-group-item">HTML5</li>
-                                <li class="list-group-item">CSS3
-                                    <ul>
-                                        <li>Bootstrap v3 and v4</li>
-                                        <li>SASS</li>
-                                    </ul>
-                                </li>
-                                <li class="list-group-item">JavaScript</li>
-                                <li class="list-group-item">Python</li>
-                                <li class="list-group-item">Java</li>
-
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
-                            <ul class="list-group w-75 mx-auto mt-2">
-                                <li class="list-group-item">Adobe After Effects CC</li>
-                                <li class="list-group-item">Adobe Photoshop CC</li>
-                                <li class="list-group-item">Sketch</li>
-                                <li class="list-group-item">Vectorworks</li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane fade" id="utilities" role="tabpanel" aria-labelledby="utilities-tab">
-                            <ul class="list-group w-75 mx-auto mt-2">
-                                <li class="list-group-item">Microsoft Word</li>
-                                <li class="list-group-item">Microsoft Excel</li>
-                                <li class="list-group-item">Microsoft Powerpoint</li>
-                                <li class="list-group-item">Pages</li>
-                                <li class="list-group-item">Numbers</li>
-                                <li class="list-group-item">Keynote</li>
-                                <li class="list-group-item">Google Docs</li>
-                                <li class="list-group-item">Google Sheets</li>
-                            </ul>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="navbar navbar-expand-lg fixed-bottom bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -122,12 +33,23 @@
             </ul>
         </div>
     </div>
-    <div class="flex-container">
-        <!--Experience-->
-        <section class="body">
-            <h2 class="exphead"><a id="exp"></a>Experience</h2>
-            <!--Product Support-->
-            <section class="expinfo">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1 class="text-success">Maegan J Wilson</h1>
+                    <p class="font-italic">Front-End Web Developer based in Austin, Tx</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--About-->
+            <div class="col-md-7">
+                <h2 class="text-success">About</h2>
+                <p>Maegan is a front-end web developer with a focus in JavaScript. She lives in Austin, Texas with her dog and
+                    fiance. Maegan has a Bachelor of Art's in Theatre & Dance from the University of Texas.</p>
+                <h3 class="text-success">Experience</h3>
+                <!--High End Systems-->
                 <h4>Product Support Engineer</h4>
                 <p><strong>High End Systems</strong>, Austin, Tx; Aug 2015 to Present</p>
                 <ul class="ul-exp">
@@ -138,9 +60,6 @@
                     <li>Train all-level users on how to use the Hog 4 control console</li>
                     <li>Edit and create training material</li>
                 </ul>
-            </section>
-            <!-- Research and Development Intern -->
-            <section class="expinfo">
                 <h4>Research and Developement Intern</h4>
                 <p><strong>High End Systems</strong>, Austin, Tx; Aug 2014 to Aug 2015</p>
                 <ul class="ul-exp">
@@ -148,9 +67,7 @@
                     <li>Recreate software issues for Hog 4 OS and Axon Media Server</li>
                     <li>Work with software developers to test unreleased features</li>
                 </ul>
-            </section>
-            <!-- IT Manager -->
-            <section class="expinfo">
+                <!--Cohen New Works Festival-->
                 <h4>IT Manager</h4>
                 <p><strong>The Cohen New Works Festival</strong>, Austin, Tx; Aug 2013 to Aug 2015</p>
                 <ul class="ul-exp">
@@ -158,69 +75,75 @@
                     <li>Design and work with a front end developer to implement the website’s UI</li>
                     <li>Manage the G Suite, formerly Google Apps, account for the committee that over sees the festival</li>
                 </ul>
-            </section>
-            <h2 class="exphead"><a id="proj"></a>Projects</h2>
-            <section class="expinfo">
-                <h4><a href="https://codepen.io/collection/AdprJO/">Daily CSS Images</a></h4>
-                <ul class="ul-exp">
-                    <li>The Daily CSS Image challenge written by <a href="https://medium.com/@michaelmangial1?source=post_header_lockup">Michael Mangialardi</a></li>
-                </ul>
-            </section>
-            <section class="expinfo">
-                <h4><a href="https://maeganjwilson.github.io/hog-tips/">Hog Tips</a></h4>
-                <ul class="ul-exp">
-                    <li>Hog 4 console tips. Tips for networking, programming, and playback on a Hog 4 console</a>
-                    </li>
-                </ul>
-            </section>
-            <h2 class="exphead"><a id="edu"></a>Education</h2>
-
-            <section class="expinfo">
+                <!--Education-->
+                <h3 class="text-success">Education</h3>
+                <h4>Front End Web Development Certificate</h4>
+                <p><strong>Thinkful</strong>, June 2017</p>
+                <p>Front End Web Development course that is about 180 hours of course work. The course covers HTML, CSS, JavaScript
+                    fundamentals, JQuery, git commands, and GitHub. It also covers how to implement a responsive design using
+                    a grid.</p>
                 <h4>BA Theatre & Dance</h4>
                 <p><strong>The University of Texas at Austin</strong>, May 2016</p>
-                <ul class="ul-exp">
-                    <li>Focus in lighting and projection technology and design</li>
-                </ul>
-            </section>
-        </section>
-        <!--Skills-->
-        <section class="body">
-            <h2 class="exphead">Skills</h2>
-            <h4>Programming</h4>
-            <ul class="skill">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>SASS</li>
-                <li>JavaScript
-                    <ul class="skill">
-                        <li>Angular 4</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>Vue</li>
+                <p>Focus in lighting and projection design and technology</p>
+            </div>
+            <!--Skills-->
+            <div class="col py-2">
+                <h2 class="text-success">Skills</h1>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist ">
+                        <li class="nav-item">
+                            <a class="nav-link active " id="prog-tab" data-toggle="tab" href="#prog" role="tab" aria-controls="prog" aria-expanded="true">Programming</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design">Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="utilities-tab" data-toggle="tab" href="#utilities" role="tab" aria-controls="utilities">Utilities</a>
+                        </li>
                     </ul>
-                </li>
-                <li>Python</li>
-                <li>Java</li>
-            </ul>
-            <h4>Design Software</h4>
-            <ul class="skill">
-                <li>Adobe After Effects CC</li>
-                <li>Adobe Photoshop CC</li>
-                <li>Sketch</li>
-                <li>Vectorworks</li>
-            </ul>
-            <h4>Office Software</h4>
-            <ul class="skill">
-                <li>Microsoft Word</li>
-                <li>Microsoft Excel</li>
-                <li>Microsoft Powerpoint</li>
-                <li>Pages</li>
-                <li>Numbers</li>
-                <li>Keynote</li>
-                <li>Google Docs</li>
-                <li>Google Sheets</li>
-            </ul>
-        </section>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="prog" role="tabpanel" aria-labelledby="prog-tab">
+                            <ul class="list-group mx-auto">
+                                <li class="list-group-item border-bottom-0 border-top-0">HTML5</li>
+                                <li class="list-group-item border-bottom-0 border-top-0" data-toggle="collapse" href="#css" aria-expanded="false" aria-controls="css">CSS3 <span class="badge badge-default badge-pill bg-info">2</span></li>
+                                <div class="collapse" id="css">
+                                    <li class="list-group-item border-bottom-0 border-top-0">Bootstrap v3, v4</li>
+                                    <li class="list-group-item border-bottom-0 border-top-0">SASS</li>
+                                </div>
+                                <li class="list-group-item border-bottom-0 border-top-0" data-toggle="collapse" href="#javascript" aria-expanded="false"
+                                    aria-controls="javascript">JavaScript <span class="badge badge-default badge-pill bg-info">5</span></li>
+                                <div class="collapse" id="javascript">
+                                    <li class="list-group-item border-bottom-0 border-top-0">React</li>
+                                    <li class="list-group-item border-bottom-0 border-top-0">Redux</li>
+                                    <li class="list-group-item border-bottom-0 border-top-0">Angular 4</li>
+                                    <li class="list-group-item border-bottom-0 border-top-0">Vue</li>
+                                </div>
+                                <li class="list-group-item border-bottom-0 border-top-0">Python</li>
+                                <li class="list-group-item border-top-0">Java</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                            <ul class="list-group mx-auto">
+                                <li class="list-group-item border-bottom-0 border-top-0">Adobe After Effects CC</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Adobe Photoshop CC</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Sketch</li>
+                                <li class="list-group-item border-top-0">Vectorworks</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="utilities" role="tabpanel" aria-labelledby="utilities-tab">
+                            <ul class="list-group mx-auto">
+                                <li class="list-group-item border-bottom-0 border-top-0">Microsoft Word</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Microsoft Excel</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Microsoft Powerpoint</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Pages</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Numbers</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Keynote</li>
+                                <li class="list-group-item border-bottom-0 border-top-0">Google Docs</li>
+                                <li class="list-group-item border-top-0">Google Sheets</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
